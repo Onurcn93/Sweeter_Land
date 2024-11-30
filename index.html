@@ -12,18 +12,22 @@
     <header>
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="index.html">Menu</a></li>
+                <li class = "navs"><a href="index.html">Home</a></li>
+                <li class = "navs"><a href="index.html">Menu</a></li>
                 <li class="logo"><a href="index.html">Bakery Logo</a></li>
-                <li><a href="pages/locations.html">Locations</a></li>
-                <li><a href="pages/contacts.html">Contacts</a></li>
+                <li class = "navs"><a href="pages/locations.html">Locations</a></li>
+                <li class = "navs"><a href="pages/contacts.html">Contacts</a></li>
             </ul>
         </nav>
     </header>
 
-    <input id="order_count1" type="text" name="first number">
-    <input id="order_count2" type="text" name="second number">
-    <h2 id="sum">0</h2>
+    <div class="inputs">
+    <input id="order_count1" type="text" name="first number" placeholder="Number of Breads">
+    <p id="sum">Your Total Order Count</p>
+    <input id="order_count2" type="text" name="second number" placeholder="Number of Deserts"> 
+    </div>
+
+    
 
     <section class="feature_box">
         <figure>
@@ -42,7 +46,7 @@
         </figure>
     </section>
 
-    <footer>Bakery Excellence Trademark</footer>
+    <footer><i>Bakery Excellence Trademark</i></footer>
 
     <script src="bower_components/jquery/jquery.js"></script>
     <script>
