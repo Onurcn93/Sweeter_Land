@@ -10,22 +10,21 @@ Implement interactive features using JavaScript.
 Technologies Used
 
 HTML: Structure of the website.
-CSS: Styling and layout.
-Flexbox
-Grid
-Animations
-JavaScript: Interactive elements.
-Dynamic content
-Event handling
+
+CSS: Styling and layout. Flexbox
+
+JavaScript: Interactive elements. Dynamic content Event handling
 
 Project Directory Structure
 
 /project-root
 │
+
 ├── /assets
 │   ├── /images       # Images used in the design
 │   └── /css          # Stylesheets
 │       └── styles.css
+
 ├── /js               # JavaScript files
 │   └── scripts.js
 ├── index.html         # Main HTML file
