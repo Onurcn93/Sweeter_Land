@@ -7,7 +7,7 @@ body {
 }
 header {
     background:rgb(10, 10, 10);
-    background-image: url(images/5.jpg);
+    background-image: url("../images/5.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center;
@@ -35,7 +35,7 @@ h2 {
     margin-left:50%;
 }
 header .logo a{
-    background-image: url("images/4.png");
+    background-image: url("../images/4.png");
     background-size: 100%;
     background-repeat: no-repeat;
     display: inline-block;
