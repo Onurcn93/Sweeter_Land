@@ -1,0 +1,89 @@
+body {
+    background: rgb(58, 58, 58);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    background:rgb(10, 10, 10);
+    background-image: url(images/5.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    padding: 20px;
+    text-align: center;
+    height: 400px;
+}
+ul {
+    list-style-type: none;
+}
+nav li {
+    display: inline-block;
+    margin-right: 60px;
+}
+header a {
+    color: white;
+    margin-top: 40px;
+}
+input {
+    display: block;
+    margin: auto;
+}
+h2 {
+    display: block;
+    margin-left:50%;
+}
+header .logo a{
+    background-image: url("images/4.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: inline-block;
+    position:relative;
+    width: 120px;
+    height: 120px;
+    margin-top: -80px;
+    text-indent: -99999999px;
+}
+section.feature_box {
+    background: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    color: gray;
+}
+.feature_box figure {
+    text-align: center;
+    margin: auto;
+    width: 200px;
+}
+.feature_box figure img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    box-shadow: gray 0 0 20px;
+}
+footer {
+    background:rgb(10, 10, 10);
+    padding: 5px 20px;
+}
+h2 {
+    color: gray;
+}
+button {
+    border-radius: 12px;
+}
+a:hover {
+    text-decoration: none;
+}
+ul li:hover {
+    background: black;
+    cursor: pointer;
+}
+
+/* renponsive section */
+@media screen and (max-width: 20px) {
+    .feature_box {
+        background-color: pink;
+    }
+}
